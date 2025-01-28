@@ -21,13 +21,13 @@ export default function Resume() {
           <div className="resume">
             <h2 className="lora-header">Programming Knowledge</h2>
             <ul>
-              <li className="raleway-body"><p class="fs-1">HTML</p></li>
-              <li className="raleway-body"><p class="fs-1">CSS</p></li>
-              <li className="raleway-body"><p class="fs-1">Javascript/Typescript</p></li>
-              <li className="raleway-body"><p class="fs-1">SQL</p></li>
-              <li className="raleway-body"><p class="fs-1">React</p></li>
-              <li className="raleway-body"><p class="fs-1">NodeJS</p></li>
-              <li className="raleway-body"><p class="fs-1">Servers/API's</p></li>
+              <li className="raleway-body"><p class="fs-2">HTML</p></li>
+              <li className="raleway-body"><p class="fs-2">CSS</p></li>
+              <li className="raleway-body"><p class="fs-2">Javascript/Typescript</p></li>
+              <li className="raleway-body"><p class="fs-2">SQL</p></li>
+              <li className="raleway-body"><p class="fs-2">React</p></li>
+              <li className="raleway-body"><p class="fs-2">NodeJS</p></li>
+              <li className="raleway-body"><p class="fs-2">Servers/API's</p></li>
             </ul>
           </div>
         </div>

@@ -1,23 +1,24 @@
 #root {
-  --main-bg-color: #0d9e9e;
+  --main-bg-color: #e9f7f7;
   --main-text-color: #fff;
   --main-link-color: #61dafb;
-  --main-link-hover-color: #61dafb;
+  --main-link-hover-color: #f1f5f6;
   --main-link-visited-color: #61dafb;
   --main-link-active-color: #61dafb;
   --main-link-focus-color: #61dafb;
-  --navbar-bg-color: #087553;
-  --navbar-text-color: #fff;
-  --footer-bg-color: #087553;
-  --footer-text-color: #fff;
-  --footer-link-color: #61dafb;
+  --navbar-bg-color: #050505;
+  --navbar-text-color: #000000;
+  --footer-bg-color: #040404;
+  --footer-text-color: #010101;
+  --footer-link-color: #f4f7f8;
   --body-header-text-color: #233e46;
-  --body-text-color: #233e46;
-  --body-link-color: #61dafb;
+  --body-text-color: #f4f7f9;
+  --body-link-color: #080909;
   --body-link-hover-color: #61dafb;
+  
 }
 .nav-link{
-  color: var(--navbar-text)
+  color: var(--navbar-text-color)
 }
 .nav-link:hover{
   color: rgb(219, 226, 225);
@@ -28,7 +29,7 @@
 }
 
 .border-bottom-custom {
-  border-bottom: 1px solid var(--navbar-accent)
+  border-bottom: 10px solid var(--navbar-bg-color)
 }
 
 .raleway-nav {
@@ -36,13 +37,13 @@ font-family: "Raleway", sans-serif;
 font-optical-sizing: auto;
 font-weight: 400;
 font-style: normal;
-color: var(--navbar-accent);
+color: var(--navbar-bg-color);
 }
 #home-icon {
   color: var(--navbar-text);
 }
 #home-icon:hover {
-  color: var(--navbar-text-hover);
+  color: var(--main-link-hover-color);
 }
 .doto-carousel {
 font-family: "Doto", sans-serif;
@@ -56,9 +57,9 @@ font-variation-settings:
 .monospace-header {
 font-family: "monospace", serif;
 font-optical-sizing: auto;
-font-weight: 600;
+font-weight: 700;
 font-style: normal;
-color: var(--body-header-text)
+color: var(--body-header-text-color)
 }
 
 .raleway-body {
@@ -77,7 +78,7 @@ body {
 
 }
 .icon:hover{
- color: var(--navbar-text-hover)
+color: var(--main-link-hover-color)
 }
 
 #social-links {
@@ -85,18 +86,14 @@ body {
   
 }
 #social-links a {
-  color: #24c3bb;
+  color: #020202;
 }
 #social-links a:hover{
-  color:#1bc35b;
+  color:#f1f6f4;
 }
 
 .body-main {
-  background-color: var(--body-text-darkening);
-}
-#headshot {
-  height: 50%;
-  border-radius: 50%;
+  background-color: var(--main-bg-color);
 }
 .projects-screenshot{
   width: 100%;
@@ -106,8 +103,8 @@ body {
   color: #ccc;
 }
 .footer-background {
-  background-color: rgb(73, 11, 167);
+  background-color: rgb(11, 167, 120);
 }
-.footer-top {
-  border-top: 1px solid var(--footer-accent)   
+.footer-top-custom {
+  border-top: 10px solid var(--footer-bg-color)   
 }

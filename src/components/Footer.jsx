@@ -3,7 +3,7 @@ import { faSquareGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
     return (
-        <footer className="fixed-bottom footer-custom-background footer-top-custom">
+        <footer className="fixed-bottom footer-background footer-top-custom">
         <div className="container">
         <ul className="d-flex justify-content-center align-items-center list-unstyled mb-0" id='social-links'>
             <li className="px-3">
