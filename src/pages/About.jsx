@@ -19,7 +19,7 @@ export default function About() {
                     <h1 className='monospace-header d-flex justify-content-center'>Welcome to Brandon Carlson's Portfolio!</h1>
 
                     <p className='d-flex justify-content-center'>
-                        This is a simple portfolio website created using React. It is a single page application with routing.
+                    The purpose of building this simple portfolio page is to highlight the use of React. There are links to my existing portfolio, highlighting some of the projects completed in this bootcamp.  There is also a link to my resume, and a list of tools learned in this bootcamp. Please complete the contact form for any questions you may have! I am hoping that this provides a clear example that I'm capable of writing code and displaying the tools learned in this bootcamp to a future employer. Happy Coding!
                     </p>
                     <p className='d-flex justify-content-center'>
                         The website is hosted on GitHub Pages. The source code is available on GitHub.

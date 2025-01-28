@@ -7,28 +7,40 @@ const Portfolio = () => {
     }, []);
     const projects = [
         {
-            title: "Project 1",
-            description: "This is a description of project 1",
+            title: "Page-Timings",
+            description: "This project was created to be able to track the timing for each page that is being read on a script for a stagehand",
             image: "https://via.placeholder.com/150",
-            repository: ""
+            repository: "https://github.com/carlbr3/Page-Timings"
         },
         {
-            title: "Project 2",
-            description: "This is a description of project 2",
+            title: "README-Generator",
+            description: "This repository is where I developed a command line application to quickly create a professional README for new projects.",
             image: "https://via.placeholder.com/150",
-            repository: ""
+            repository: "https://github.com/carlbr3/README-Generator"
         },
         {
-            title: "Project 3",
-            description: "This is a description of project 3",
+            title: "Vehicle-Build-Test",
+            description: "The purpose of building this application was to demonstrate OOP (Object Oriented Programming) and show how different classes function.",
             image: "https://via.placeholder.com/150",
-            repository: ""
+            repository: "https://github.com/carlbr3/Vehicle-Build-Test"
         },
         {
-            title: "Project 4",
-            description: "This is a description of project 4",
+            title: "Weather-Dashboard-Forecast",
+            description: "The purpose of this application was to build a weather dashboard that calls the OpenWeather API, then renders the data in the browser.",
             image: "https://via.placeholder.com/150",
-            repository: ""
+            repository: "https://github.com/carlbr3/Weather-Dashboard-Forecast"
+        },
+        {
+            title: "Project-5",
+            description: "This is a description of Project 5",
+            image: "https://via.placeholder.com/150",
+            repository: "https://github.com/carlbr3/Project-5"
+        },
+        {
+            title: "Project-6",
+            description: "This is a description of Project 6",
+            image: "https://via.placeholder.com/150",
+            repository: "https://github.com/carlbr3/Project-6"
         }
     ];
     //Add the upcoming projects to the Project component
