@@ -1,12 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 export default function Form() {
     useEffect(() => {
-        document.title = "Contact";
+        document.title = "Contact Me - Brandon Carlson's Portfolio";
     }, []);
-    const [fullName, setFullName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
+    const [fullName, setFullName] = useState('');
+    const [emailAddress, setEmailAddress] = useState('');
+    const [userMessage, setUserMessage] = useState('');
     const [errors, setErrors] = useState({});
 
     const handleInputChange = (e) => {
@@ -22,7 +22,7 @@ export default function Form() {
             }
         } else if (name === 'emailAddress') {
             setEmailAddress(value);
-            //The email should contain at least one "." after the "@" symbol.
+        
             const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
             if (!value) {
                 newErrors.emailAddress = 'Email address is required';
@@ -74,10 +74,7 @@ export default function Form() {
         setErrors(newErrors);
 
         if (Object.keys(newErrors).length === 0) {
-            alert('Form submitted');
-            setFullName('');
-            setEmailAddress('');
-            setUserMessage('');
+
         }
     };
 

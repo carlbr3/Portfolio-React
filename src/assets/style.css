@@ -1,33 +1,30 @@
 #root {
-  --main-bg-color: #282c34;
+  --main-bg-color: #0d9e9e;
   --main-text-color: #fff;
   --main-link-color: #61dafb;
   --main-link-hover-color: #61dafb;
   --main-link-visited-color: #61dafb;
   --main-link-active-color: #61dafb;
   --main-link-focus-color: #61dafb;
-  --navbar-bg-color: #320875;
+  --navbar-bg-color: #087553;
   --navbar-text-color: #fff;
-  --footer-bg-color: #320875;
+  --footer-bg-color: #087553;
   --footer-text-color: #fff;
   --footer-link-color: #61dafb;
   --body-header-text-color: #233e46;
   --body-text-color: #233e46;
   --body-link-color: #61dafb;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  --body-link-hover-color: #61dafb;
 }
 .nav-link{
   color: var(--navbar-text)
 }
 .nav-link:hover{
-  color: var(--navbar-text-hover)
+  color: rgb(219, 226, 225);
 }
 
 .navbar-custom{
-  background-color: var(--navbar-custom-background);
+  background-color: rgb(11, 167, 120);
 }
 
 .border-bottom-custom {
@@ -88,7 +85,7 @@ body {
   
 }
 #social-links a {
-  color: #1bc35b;
+  color: #24c3bb;
 }
 #social-links a:hover{
   color:#1bc35b;
@@ -98,7 +95,7 @@ body {
   background-color: var(--body-text-darkening);
 }
 #headshot {
-  height: 75%;
+  height: 50%;
   border-radius: 50%;
 }
 .projects-screenshot{
@@ -109,7 +106,7 @@ body {
   color: #ccc;
 }
 .footer-background {
-  background-color: var(--footer-custom-background);
+  background-color: rgb(73, 11, 167);
 }
 .footer-top {
   border-top: 1px solid var(--footer-accent)   
