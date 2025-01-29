@@ -10,7 +10,7 @@ const Portfolio = () => {
             title: "Page-Timings",
             description: "This project was created to be able to track the timing for each page that is being read on a script for a stagehand",
             image: "assets/img/Page Timings.png",
-            deployedvideo: "https://www.youtube.com/watch?v=Q8v3h3Y2J1c",
+            deployedlink: "https://carlbr3.github.io/Page-Timings/",
             repository: "https://github.com/carlbr3/Page-Timings"
         },
         {
@@ -42,11 +42,10 @@ const Portfolio = () => {
             repository: "https://github.com/carlbr3/Employee-Tracker"
         },
         {
-            title: "Project-6",
-            description: "This is a description of Project 6",
-            image: "https://via.placeholder.com/150",
-            deployedvideo: "https://www.youtube.com/watch?v=Q8v3h3Y2J1c",
-            repository: "https://github.com/carlbr3/Project-6"
+            title: "Simple HTML/CSS",
+            description: "Mini project to show off HTML and CSS skills",
+            image: "assets/img/HTML:CSS.png",
+            repository: "https://github.com/carlbr3/module-2-mini-project"
         }
     ];
     //Add the upcoming projects to the Project component
