@@ -18,10 +18,10 @@ export default function About() {
                     <h1 className='monospace-header d-flex justify-content-center'>Welcome to Brandon Carlson's Portfolio!</h1>
 
                     <p className='d-flex justify-content-center'>
-                    The purpose of building this simple portfolio page is to highlight the use of React. There are links to my existing portfolio, highlighting some of the projects completed in this bootcamp.  There is also a link to my resume, and a list of tools learned in this bootcamp. Please complete the contact form for any questions you may have! I am hoping that this provides a clear example that I'm capable of writing code and displaying the tools learned in this bootcamp to a future employer. Happy Coding!
+                    The purpose of building this portfolio page is to highlight the technical expertise and displaying some of the projects completed in this Full Stack Web Development bootcamp.  There is also a link to my resume, and a list of other skills retained through my career. Please complete the contact form for any questions you may have! I am hoping that this provides a clear example that I'm capable of writing code and displaying the tools learned in this bootcamp to a future employer. Happy Coding!
                     </p>
                     <p className='d-flex justify-content-center'>
-                        The website is hosted on GitHub Pages. The source code is available on GitHub.
+                        The website is hosted on Netlify. The source code is available on GitHub.
                     </p>
                     <p className='d-flex justify-content-center'>
                         <strong>Connect with me:</strong>
