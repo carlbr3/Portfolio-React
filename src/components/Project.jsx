@@ -1,11 +1,14 @@
-//import React from 'react';
 
-const Project = ({ title, image, deployedLink, deployedVideo, repoLink }) => {
+
+const Project = ({ title, description, image, deployedLink, deployedVideo, repoLink }) => {
     return (
         <div className="container col-12 col-md-4 mb-3 px-3 pt-5 body-main">
             <div className="project">
-                <h3 className="lora-header">{title}</h3>
+                <h3 className="monospace-header">{title}</h3>
                 <img className="projects-screenshot" src={image} alt={`${title} screenshot`} />
+                <div className="project-description">
+                    <p className="raleway-nav">{description}</p>
+                </div>
                 <div className="project-links">
                     {deployedLink ? (
                         <a className='raleway-nav' href={deployedLink} target="_blank" rel="noopener noreferrer">View Deployed App</a>

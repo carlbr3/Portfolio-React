@@ -82,7 +82,7 @@ export default function Form() {
         <div className="container">
             <div className="row pt-5">
                 <div className="container col-md-6 body-main pt-5">
-                    <h1 className="lora-header">Contact Me!</h1>
+                    <h1 className="monospace-header">Contact Me!</h1>
                     <form className="form mt-5" onSubmit={handleFormSubmit}>
                         <input
                             className="form-control w-100 mb-3 bg-dark text-light raleway-body"
@@ -111,10 +111,10 @@ export default function Form() {
                             onChange={handleInputChange}
                             onBlur={handleBlur}
                             placeholder="Your Message"
-                            rows="5"
+                            rows="8"
                         />
                         {errors.userMessage && <div className="text-danger">{errors.userMessage}</div>}
-                        <button className="btn btn-outline-primary w-100" type="submit">
+                        <button className="btn btn-primary w-100" type="submit">
                             Submit
                         </button>
                     </form>
