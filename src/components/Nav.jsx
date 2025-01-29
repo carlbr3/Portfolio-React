@@ -25,6 +25,11 @@ export default function Nav() {
                         </li>
                     </ul>
                 </div>
+                <div className='d-flex justify-content-end'>
+                    <a href="https://github.com/carlbr3" className="nav-link" id="github-icon">
+                        <img src="/assets/img/github avatar.png" alt="GitHub" width="50" height="50" />
+                    </a>
+                </div>
             </div>
         </nav>
     );
