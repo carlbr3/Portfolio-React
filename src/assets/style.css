@@ -25,7 +25,7 @@
 }
 
 .navbar-custom{
-  background-color: rgb(11, 167, 120);
+  background-color: #5296a5ff;
 }
 
 .border-bottom-custom {
@@ -103,7 +103,7 @@ color: var(--main-link-hover-color)
   color: #ccc;
 }
 .footer-background {
-  background-color: rgb(11, 167, 120);
+  background-color: #5296a5ff;
 }
 .footer-top-custom {
   border-top: 10px solid var(--footer-bg-color)   
