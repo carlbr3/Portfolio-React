@@ -35,11 +35,11 @@ const Portfolio = () => {
             repository: "https://github.com/carlbr3/Weather-Dashboard-Forecast"
         },
         {
-            title: "Project-5",
-            description: "This is a description of Project 5",
+            title: "Employee-Tracker",
+            description: "Employee Tracking Database for Front End",
             image: "https://via.placeholder.com/150",
             deployedvideo: "https://www.youtube.com/watch?v=Q8v3h3Y2J1c",
-            repository: "https://github.com/carlbr3/Project-5"
+            repository: "https://github.com/carlbr3/Employee-Tracker"
         },
         {
             title: "Project-6",
