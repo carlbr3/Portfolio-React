@@ -9,21 +9,21 @@ const Portfolio = () => {
         {
             title: "Page-Timings",
             description: "This project was created to be able to track the timing for each page that is being read on a script for a stagehand",
-            image: "https://via.placeholder.com/150",
+            image: "assets/img/Page Timings.png",
             deployedvideo: "https://www.youtube.com/watch?v=Q8v3h3Y2J1c",
             repository: "https://github.com/carlbr3/Page-Timings"
         },
         {
             title: "README-Generator",
             description: "This repository is where I developed a command line application to quickly create a professional README for new projects.",
-            image: "https://via.placeholder.com/150",
-            deployedvideo: "https://www.youtube.com/watch?v=Q8v3h3Y2J1c",
+            image: "./assets/img/README Generator.png",
+            deployedvideo: "https://drive.google.com/file/d/10dZTy39GpLwUWAY-XnTRNkHNeLDh7fif/view",
             repository: "https://github.com/carlbr3/README-Generator"
         },
         {
             title: "Vehicle-Build-Test",
             description: "The purpose of building this application was to demonstrate OOP (Object Oriented Programming) and show how different classes function.",
-            image: "https://via.placeholder.com/150",
+            image: "./assets/img/Vehicle-Build-Test.png",
             deployedvideo: "https://drive.google.com/file/d/1WwAg_R4XFckuzblO1gcSrXEf-EmOKiFX/view",
             repository: "https://github.com/carlbr3/Vehicle-Build-Test"
         },

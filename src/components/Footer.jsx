@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faStackOverflow } from '@fortawesome/free-brands-svg-icons/faStackOverflow';
 
 export default function Footer() {
     return (
@@ -14,6 +15,11 @@ export default function Footer() {
             <li className="px-3">
                 <a href="https://www.linkedin.com/in/brandoncarlson2089/" target="_blank">
                     <FontAwesomeIcon icon={faLinkedin} className="icon fa-2x fa-fw" />
+                </a>
+            </li>
+            <li className="px-3">
+                <a href="https://stackoverflow.com/users/27660712/brandon-carlson" target="_blank">
+                    <FontAwesomeIcon icon={faStackOverflow} className="icon fa-2x fa-fw" />
                 </a>
             </li>
         </ul>
