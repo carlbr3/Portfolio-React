@@ -1,6 +1,4 @@
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import {Link}   from 'react-router-dom';
+
 import { useEffect} from 'react';
 
 export default function About() {
@@ -12,8 +10,8 @@ export default function About() {
             <div className="row pt-4  mb-5">
                 <div className="container-col-md-4 body main pt-4">
                     <div className='d-flex justify-content-center'>
-                    <img className='p-5-md' src="/assets/img/profilepic.jpeg" alt="Brandon Carlson" class="img-thumbnail" width="350/10"/>
-                    <img className='p-5-md' src="/assets/img/github avatar.png" alt="Brandon Carlson" class="img-thumbnail" width="350/10"/>
+                    <img className='p-5-md' src="/assets/img/profilepic.jpeg" alt="Brandon Carlson" class="img-thumbnail" width="375/10"/>
+                    <img className='p-5-md' src="/assets/img/github avatar.png" alt="Brandon Carlson" class="img-thumbnail" width="375/10"/>
                     </div>
                 </div>
                 <div className="container-col-md-8 body main pt-4" id='brand-statement'>
