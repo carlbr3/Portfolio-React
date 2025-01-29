@@ -7,7 +7,7 @@ export default function Nav() {
         <nav className="navbar sticky-top navbar-expand-md border-bottom-custom navbar-custom" data-bs-theme="dark">
             <div className="container-fluid">
                 <Link className="navbar-brand nav-item raleway-nav" to="/">
-                    <FontAwesomeIcon icon={faHouse} id="home-icon" />    About Me
+                    <FontAwesomeIcon icon={faHouse} id="home-icon" />  Brandon Carlson/About Me
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
